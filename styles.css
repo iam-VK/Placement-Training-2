@@ -36,3 +36,26 @@
     margin: auto auto 10px 60px;
 }
 
+.Name_Banner h1,
+h2 {
+  margin: 0px;
+}
+
+.Name_Banner h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.Name_Banner h2 {
+    font-size: 20px;
+    font-weight: 570;
+}
+
+.Name_Banner p {
+  color: #97a7be;
+  padding: 5px;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: normal;
+}
