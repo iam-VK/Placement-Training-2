@@ -59,3 +59,20 @@ h2 {
   font-size: 16px;
   font-weight: normal;
 }
+
+
+.About .about_para {
+    color: #94A3B8;
+    margin-bottom: 16px;
+    padding: 5px;
+    line-height: 1.7;
+    font-size: 16px;
+    justify-items: center;
+  }
+  
+.About .Experience {
+    margin: 90px 2px 16px 2px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 18px;
+}
