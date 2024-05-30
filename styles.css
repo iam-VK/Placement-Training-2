@@ -26,7 +26,7 @@
 
 
 
-.profile img {
+.picture img {
     border-radius: 100px;
     /* text-align: center; */
     align-content: center;
@@ -34,6 +34,14 @@
     height: 130px;
     /* display: block; */
     margin: auto auto 10px 60px;
+}
+
+.name_card img{
+    border-radius: 100px;
+    width: 28px;
+    height: 28px;
+    padding: 15px;
+    align-content: center;
 }
 
 .Name_Banner h1,
