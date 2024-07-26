@@ -1,0 +1,13 @@
+db.collection.insertOne({name:"John Doe",age:30,address:"123 Main St"});
+db.collection.insertMany([{name:"Jane Doe",age:25,address:"456 Elm St"},{name:"Jim Brown",age:45,address:"789 Maple Ave"}]);
+db.collection.find({});
+db.collection.find({age:{$gt:30}});
+db.collection.findOne({name:"John Doe"});
+db.collection.updateOne({name:"John Doe"},{$set:{age:31}});
+db.collection.updateMany({age:{$lt:30}},{$set:{status:"young"}});
+db.collection.replaceOne({name:"Jane Doe"},{name:"Jane Doe",age:26,address:"456 Elm St"});
+db.collection.deleteOne({name:"John Doe"});
+db.collection.deleteMany({age:{$lt:30}});
+db.collection.countDocuments();
+db.collection.countDocuments({age:{$gt:30}});
+db.collection.aggregate([{$match:{age:{$gt:30}}},{$group:{_id:"$age",total:{$sum:1}}},{$sort:{total:-1}}]);
